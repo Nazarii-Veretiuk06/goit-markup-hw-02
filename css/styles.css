@@ -6,6 +6,11 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+address {
+    font-style: normal;
+}
+
+
 
 /* Header styles */
 .page-header {
@@ -84,6 +89,7 @@ body {
 .features-section {
 }
 
+/* Загальні стилі для всіх заголовків секцій */
 .section-title {
     font-size: 36px;
     line-height: 1.11;
@@ -92,7 +98,8 @@ body {
     margin-bottom: 72px;
 }
 
-.feature-title {
+/* Стилі для підзаголовків (features, team, portfolio) */
+.item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -100,7 +107,7 @@ body {
     margin-bottom: 8px;
 }
 
-.feature-text {
+.item-text {
     font-size: 16px;
     color: #434455;
 }
@@ -138,6 +145,8 @@ body {
     line-height: 1.2;
     color: #2e2f42;
     margin-bottom: 8px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .portfolio-category {
@@ -151,8 +160,9 @@ body {
     text-align: center;
 }
 
-.footer-logo .logo-studio {
-    color: #f4f4fd;
+/* Колір другої частини логотипу у футері */
+.page-footer .logo-studio {
+    color: #f4f4fd; /* Змінено колір для футера */
 }
 
 .footer-text {
@@ -166,7 +176,7 @@ body {
 .team-list,
 .portfolio-list {
     list-style: none;
-    padding: 0;
+  
     margin: 0;
 }
 
