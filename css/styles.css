@@ -5,14 +5,14 @@ body {
     background-color: #ffffff;
     line-height: 1.5;
     letter-spacing: 0.02em;
-  }
-  
-  /* Header styles */
-  .page-header {
+}
+
+/* Header styles */
+.page-header {
     background-color: #ffffff;
-  }
-  
-  .logo {
+}
+
+.logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -21,54 +21,50 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-  }
-  
-  .logo-web {
-    color: #4d5ae5;
-  }
-  
-  .logo-studio {
+}
+
+
+.logo-studio {
     color: #2e2f42;
-  }
-  
-  .nav-menu .nav-link {
+}
+
+.nav-menu .nav-link {
     font-weight: 500;
     font-size: 16px;
     color: #2e2f42;
     text-decoration: none;
-  }
-  
-  .nav-menu .nav-link:hover,
-  .nav-menu .nav-link:focus {
+}
+
+.nav-menu .nav-link:hover,
+.nav-menu .nav-link:focus {
     color: #404bbf;
-  }
-  
-  .contact-info .contact-link {
+}
+
+.contact-info .contact-link {
     font-size: 16px;
     color: #434455;
     text-decoration: none;
-  }
-  
-  .contact-info .contact-link:hover,
-  .contact-info .contact-link:focus {
+}
+
+.contact-info .contact-link:hover,
+.contact-info .contact-link:focus {
     color: #404bbf;
-  }
-  
-  /* Hero section */
-  .hero-section {
+}
+
+/* Hero section */
+.hero-section {
     background-color: #2e2f42;
     text-align: center;
-    padding: 100px 0;
-  }
-  
-  .hero-title {
+}
+
+.hero-title {
     font-size: 56px;
     line-height: 1.07;
     color: #ffffff;
     margin-bottom: 48px;
-  }
-  
-  .hero-button {
+}
+
+.hero-button {
     background-color: #4d5ae5;
     color: #ffffff;
     font-weight: 500;
@@ -76,120 +72,109 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    padding: 16px 32px;
     border: none;
-    border-radius: 4px;
-  }
-  
-  .hero-button:hover,
-  .hero-button:focus {
+}
+
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404bbf;
-  }
-  
-  /* Features section */
-  .features-section {
-    padding: 120px 0;
-  }
-  
-  .section-title {
+}
+
+/* Features section */
+.features-section {
+}
+
+.section-title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     color: #2e2f42;
     margin-bottom: 72px;
-  }
-  
-  .feature-title {
+}
+
+.feature-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
     margin-bottom: 8px;
-  }
-  
-  .feature-text {
+}
+
+.feature-text {
     font-size: 16px;
     color: #434455;
-  }
-  
-  /* Team section */
-  .team-section {
+}
+
+/* Team section */
+.team-section {
     background-color: #f4f4fd;
-    padding: 120px 0;
-  }
-  
-  .team-member {
+}
+
+.team-member {
     background-color: #ffffff;
     text-align: center;
-    padding: 32px 16px;
-    border-radius: 0 0 4px 4px;
-  }
-  
-  .member-name {
+}
+
+.member-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
     margin-bottom: 8px;
-  }
-  
-  .member-position {
+}
+
+.member-position {
     font-size: 16px;
     color: #434455;
-  }
-  
-  /* Portfolio section */
-  .portfolio-section {
-    padding: 120px 0;
-  }
-  
-  .portfolio-title {
+}
+
+/* Portfolio section */
+.portfolio-section {
+}
+
+.portfolio-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
     margin-bottom: 8px;
-  }
-  
-  .portfolio-category {
+}
+
+.portfolio-category {
     font-size: 16px;
     color: #434455;
-  }
-  
-  /* Footer styles */
-  .page-footer {
+}
+
+/* Footer styles */
+.page-footer {
     background-color: #2e2f42;
-    padding: 100px 0;
     text-align: center;
-  }
-  
-  .footer-logo .logo-studio {
+}
+
+.footer-logo .logo-studio {
     color: #f4f4fd;
-  }
-  
-  .footer-text {
+}
+
+.footer-text {
     color: #f4f4fd;
     max-width: 264px;
     margin: 16px auto 0;
-  }
-  
-  /* Utility classes */
-  .features-list,
-  .team-list,
-  .portfolio-list {
+}
+
+/* Utility classes */
+.features-list,
+.team-list,
+.portfolio-list {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-  }
-  
-  .features-list li {
+}
+
+.features-list li {
     flex-basis: calc((100% - 72px) / 4);
-  }
-  
-  .team-list li,
-  .portfolio-list li {
+}
+
+.team-list li,
+.portfolio-list li {
     flex-basis: calc((100% - 48px) / 3);
-  }
+}
